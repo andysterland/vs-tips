@@ -1,0 +1,8 @@
+{
+  "id": "EDI_Refactorings",
+  "markdown": "Press **Alt+Enter** or **Ctrl+.** to activate a specific refactoring on the selected symbol when available.",
+  "tags": [
+    "editor"
+  ],
+  "scope": "editor"
+}

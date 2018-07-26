@@ -1,0 +1,8 @@
+{
+  "id": "EDI_DuplicateText",
+  "markdown": "Press **Ctrl+D** to duplicate the current line or selection.",
+  "tags": [
+    "editor"
+  ],
+  "scope": "editor"
+}

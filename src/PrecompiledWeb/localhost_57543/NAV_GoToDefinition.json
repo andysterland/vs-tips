@@ -1,0 +1,8 @@
+{
+  "id": "NAV_GoToDefinition",
+  "markdown": "Press **F12** to go to the definition underneath the caret.",
+  "tags": [
+    "navigation"
+  ],
+  "scope": "global"
+}

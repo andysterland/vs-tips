@@ -1,0 +1,8 @@
+{
+  "id": "EDI_EditorConfig",
+  "markdown": "Use EditorConfig to create portable, custom editor settings through simple text based codestyle enforcement. \r\n\r\nhttps://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options",
+  "tags": [
+    "editor"
+  ],
+  "scope": "editor"
+}

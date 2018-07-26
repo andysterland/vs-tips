@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ApplicationInsightsResourceId>/subscriptions/4201ff44-23e7-4bde-a58b-be0154bfe304/resourcegroups/vs-tips/providers/microsoft.insights/components/vs-tips-ai</ApplicationInsightsResourceId>
+    <ApplicationInsightsAnnotationResourceId>/subscriptions/4201ff44-23e7-4bde-a58b-be0154bfe304/resourcegroups/vs-tips/providers/microsoft.insights/components/vs-tips-ai</ApplicationInsightsAnnotationResourceId>
+    <UserSecretsId>1219e2d2-c5eb-4a1f-a4b8-b55ec9dd897f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\rest-api\Models\Tip.cs" Link="Models\Tip.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Markdig" Version="0.15.1" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+</Project>

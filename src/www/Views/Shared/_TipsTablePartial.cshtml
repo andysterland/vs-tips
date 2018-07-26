@@ -1,0 +1,28 @@
+﻿@model TipsTableViewModel
+
+<div class="table-responsive">
+    <table class="table">
+        @if (Model == null || Model.Tips == null)
+        {
+
+        }
+        else
+        {
+            foreach (var tip in Model.Tips)
+            {
+            <tr>
+                <td>@Html.Raw(Markdig.Markdown.ToHtml(tip.Markdown))</td>
+                <td>
+                    @if (tip.Keys != null)
+                    {
+                        foreach (string key in tip.Keys)
+                        {
+                            <span class="kbd">@key</span>
+                        }
+                    }
+                </td>
+            </tr>
+            }
+        }
+    </table>
+</div>

@@ -1,0 +1,8 @@
+{
+  "id": "NAV_FindAllReferences",
+  "markdown": "Press **Ctrl+12** to find all references to the symbol at the caret.",
+  "tags": [
+    "navigation"
+  ],
+  "scope": "global"
+}

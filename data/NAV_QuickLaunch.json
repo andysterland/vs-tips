@@ -1,0 +1,8 @@
+{
+  "id": "NAV_QuickLaunch",
+  "markdown": "Press **Ctrl+Q** to find settings, menu options, and much more through Quick Launch.",
+  "tags": [
+    "navigation"
+  ],
+  "scope": "global"
+}

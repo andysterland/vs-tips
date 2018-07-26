@@ -1,0 +1,8 @@
+{
+  "id": "SHL_GoToNext",
+  "markdown": "Press **Alt+F6** to return to the most recent tool window.\r\n\r\nPress **ESC** to return focus back to the editor.",
+  "tags": [
+    "shell"
+  ],
+  "scope": "global"
+}

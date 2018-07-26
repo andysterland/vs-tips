@@ -1,0 +1,8 @@
+{
+  "id": "EDI_AddLine",
+  "markdown": "Press **Ctrl+Enter** to add a line behind cursor. ",
+  "tags": [
+    "editor"
+  ],
+  "scope": "editor"
+}

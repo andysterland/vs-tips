@@ -1,0 +1,8 @@
+{
+  "id": "SHL_CloseWindow",
+  "markdown": "Press **Shift+Esc** to close the current tool window.",
+  "tags": [
+    "shell"
+  ],
+  "scope": "global"
+}

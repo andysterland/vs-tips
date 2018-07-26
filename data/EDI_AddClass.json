@@ -1,0 +1,8 @@
+{
+  "id": "EDI_AddClass",
+  "markdown": "Press **Shift+Alt+C** to add new class the current place (folder/project).",
+  "tags": [
+    "editor"
+  ],
+  "scope": "editor"
+}

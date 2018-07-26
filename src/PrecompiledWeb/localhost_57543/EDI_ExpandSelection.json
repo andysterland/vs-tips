@@ -1,0 +1,8 @@
+{
+  "id": "EDI_ExpandSelection",
+  "markdown": "Press **Shift+Alt+=**(plus) to Expand Selection.\r\n\r\nPress **Shift+Alt+-**(minus) to Contract Selection.",
+  "tags": [
+    "editor"
+  ],
+  "scope": "editor"
+}

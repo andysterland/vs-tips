@@ -1,0 +1,8 @@
+{
+  "id": "EDI_TransparentTooltip",
+  "markdown": "Make Intellisense and tooltips semi-transparent for the duration you press and hold the **Ctrl** key.",
+  "tags": [
+    "editor"
+  ],
+  "scope": "editor"
+}
