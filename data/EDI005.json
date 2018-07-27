@@ -1,0 +1,15 @@
+{
+  "id": "EDI005",
+  "name": "Add Line",
+  "markdown": "Press **Ctrl+Enter** to add a line behind cursor. ",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

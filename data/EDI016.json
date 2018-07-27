@@ -1,0 +1,15 @@
+{
+  "id": "EDI016",
+  "name": "Duplicate Text",
+  "markdown": "Press **Ctrl+D** to duplicate the current line or selection.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

@@ -1,7 +1,7 @@
 ﻿@model TipsTableViewModel
 
 <div class="table-responsive">
-    <table class="table">
+    <table class="table table-striped table-hover">
         @if (Model == null || Model.Tips == null)
         {
 
@@ -13,13 +13,7 @@
             <tr>
                 <td>@Html.Raw(Markdig.Markdown.ToHtml(tip.Markdown))</td>
                 <td>
-                    @if (tip.Keys != null)
-                    {
-                        foreach (string key in tip.Keys)
-                        {
-                            <span class="kbd">@key</span>
-                        }
-                    }
+                    <a href="/tip/@tip.Id">More info</a>
                 </td>
             </tr>
             }

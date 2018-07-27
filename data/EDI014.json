@@ -1,0 +1,15 @@
+{
+  "id": "EDI014",
+  "name": "Delete Right Word",
+  "markdown": "Press **Ctrl+Del** to delete word to right of cursor.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

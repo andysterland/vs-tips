@@ -8,7 +8,6 @@
   </PropertyGroup>
   
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -27,158 +26,124 @@
   </ItemGroup>
 
   <ItemGroup>
-    <DataFiles Remove="..\..\data\EDI_AddClass.json" />
-    <DataFiles Remove="..\..\data\EDI_AddLine.json" />
-    <DataFiles Remove="..\..\data\EDI_CleanUsings.json" />
-    <DataFiles Remove="..\..\data\EDI_CodeSnippet.json" />
-    <DataFiles Remove="..\..\data\EDI_CommentCode.json" />
-    <DataFiles Remove="..\..\data\EDI_CreateSnippet.json" />
-    <DataFiles Remove="..\..\data\EDI_CutLine.json" />
-    <DataFiles Remove="..\..\data\EDI_CycleClipboard.json" />
-    <DataFiles Remove="..\..\data\EDI_DeleteLeft.json" />
-    <DataFiles Remove="..\..\data\EDI_DeleteLine.json" />
-    <DataFiles Remove="..\..\data\EDI_DeleteRight.json" />
-    <DataFiles Remove="..\..\data\EDI_DisplayOverload.json" />
-    <DataFiles Remove="..\..\data\EDI_DuplicateText.json" />
-    <DataFiles Remove="..\..\data\EDI_EditorConfig.json" />
-    <DataFiles Remove="..\..\data\EDI_ExpandRegion.json" />
-    <DataFiles Remove="..\..\data\EDI_ExpandSelection.json" />
-    <DataFiles Remove="..\..\data\EDI_ForLoop.json" />
-    <DataFiles Remove="..\..\data\EDI_FormatDoc.json" />
-    <DataFiles Remove="..\..\data\EDI_ForRefactoring.json" />
-    <DataFiles Remove="..\..\data\EDI_FullScreen.json" />
-    <DataFiles Remove="..\..\data\EDI_IfElseRefactor.json" />
-    <DataFiles Remove="..\..\data\EDI_MoveLine.json" />
-    <DataFiles Remove="..\..\data\EDI_OpenRegion.json" />
-    <DataFiles Remove="..\..\data\EDI_Refactorings.json" />
-    <DataFiles Remove="..\..\data\EDI_SelectVertical.json" />
-    <DataFiles Remove="..\..\data\EDI_TransparentTooltip.json" />
-    <DataFiles Remove="..\..\data\EDI_UnreachableCode.json" />
-    <DataFiles Remove="..\..\data\GN_GoToAll.json" />
-    <DataFiles Remove="..\..\data\NAV_FindAllReferences.json" />
-    <DataFiles Remove="..\..\data\NAV_FindInFiles.json" />
-    <DataFiles Remove="..\..\data\NAV_GoToDefinition.json" />
-    <DataFiles Remove="..\..\data\NAV_QuickFind.json" />
-    <DataFiles Remove="..\..\data\NAV_QuickLaunch.json" />
-    <DataFiles Remove="..\..\data\SHL_CloseWindow.json" />
-    <DataFiles Remove="..\..\data\SHL_GoToNext.json" />
-    <DataFiles Remove="..\..\data\SHL_NavigateBack.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="..\..\data\EDI_AddClass.json" Link="App_Data\EDI_AddClass.json">
+    <Content Include="..\..\data\EDI004.json" Link="App_Data\EDI004.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_AddLine.json" Link="App_Data\EDI_AddLine.json">
+    <Content Include="..\..\data\EDI005.json" Link="App_Data\EDI005.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_CleanUsings.json" Link="App_Data\EDI_CleanUsings.json">
+    <Content Include="..\..\data\EDI006.json" Link="App_Data\EDI006.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_CodeSnippet.json" Link="App_Data\EDI_CodeSnippet.json">
+    <Content Include="..\..\data\EDI007.json" Link="App_Data\EDI007.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_CommentCode.json" Link="App_Data\EDI_CommentCode.json">
+    <Content Include="..\..\data\EDI008.json" Link="App_Data\EDI008.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_CreateSnippet.json" Link="App_Data\EDI_CreateSnippet.json" >
+    <Content Include="..\..\data\EDI009.json" Link="App_Data\EDI009.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_CutLine.json" Link="App_Data\EDI_CutLine.json">
+    <Content Include="..\..\data\EDI010.json" Link="App_Data\EDI010.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_CycleClipboard.json" Link="App_Data\EDI_CycleClipboard.json" >
+    <Content Include="..\..\data\EDI011.json" Link="App_Data\EDI011.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_DeleteLeft.json" Link="App_Data\EDI_DeleteLeft.json" >
+    <Content Include="..\..\data\EDI012.json" Link="App_Data\EDI012.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_DeleteLine.json" Link="App_Data\EDI_DeleteLine.json" >
+    <Content Include="..\..\data\EDI013.json" Link="App_Data\EDI013.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_DeleteRight.json" Link="App_Data\EDI_DeleteRight.json" >
+    <Content Include="..\..\data\EDI014.json" Link="App_Data\EDI014.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_DisplayOverload.json" Link="App_Data\EDI_DisplayOverload.json" >
+    <Content Include="..\..\data\EDI015.json" Link="App_Data\EDI015.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_DuplicateText.json" Link="App_Data\EDI_DuplicateText.json" >
+    <Content Include="..\..\data\EDI016.json" Link="App_Data\EDI016.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_EditorConfig.json" Link="App_Data\EDI_EditorConfig.json" >
+    <Content Include="..\..\data\EDI017.json" Link="App_Data\EDI017.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_ExpandRegion.json" Link="App_Data\EDI_ExpandRegion.json" >
+    <Content Include="..\..\data\EDI018.json" Link="App_Data\EDI018.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_ExpandSelection.json" Link="App_Data\EDI_ExpandSelection.json" >
+    <Content Include="..\..\data\EDI019.json" Link="App_Data\EDI019.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_ForLoop.json" Link="App_Data\EDI_ForLoop.json" >
+    <Content Include="..\..\data\EDI020.json" Link="App_Data\EDI020.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_FormatDoc.json" Link="App_Data\EDI_FormatDoc.json" >
+    <Content Include="..\..\data\EDI021.json" Link="App_Data\EDI021.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_ForRefactoring.json" Link="App_Data\EDI_ForRefactoring.json" >
+    <Content Include="..\..\data\EDI022.json" Link="App_Data\EDI022.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_FullScreen.json" Link="App_Data\EDI_FullScreen.json" >
+    <Content Include="..\..\data\EDI023.json" Link="App_Data\EDI023.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_IfElseRefactor.json" Link="App_Data\EDI_IfElseRefactor.json" >
+    <Content Include="..\..\data\EDI024.json" Link="App_Data\EDI024.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_MoveLine.json" Link="App_Data\EDI_MoveLine.json" >
+    <Content Include="..\..\data\EDI025.json" Link="App_Data\EDI025.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_OpenRegion.json" Link="App_Data\EDI_OpenRegion.json" >
+    <Content Include="..\..\data\EDI026.json" Link="App_Data\EDI026.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_Refactorings.json" Link="App_Data\EDI_Refactorings.json" >
+    <Content Include="..\..\data\EDI027.json" Link="App_Data\EDI027.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_SelectVertical.json" Link="App_Data\EDI_SelectVertical.json" >
+    <Content Include="..\..\data\EDI028.json" Link="App_Data\EDI028.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_TransparentTooltip.json" Link="App_Data\EDI_TransparentTooltip.json" >
+    <Content Include="..\..\data\EDI029.json" Link="App_Data\EDI029.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\EDI_UnreachableCode.json" Link="App_Data\EDI_UnreachableCode.json" >
+    <Content Include="..\..\data\EDI030.json" Link="App_Data\EDI030.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\GN_GoToAll.json" Link="App_Data\GN_GoToAll.json" >
+    <Content Include="..\..\data\GN001.json" Link="App_Data\GN001.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\NAV_FindAllReferences.json" Link="App_Data\NAV_FindAllReferences.json" >
+    <Content Include="..\..\data\NAV001.json" Link="App_Data\NAV001.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\NAV_FindInFiles.json" Link="App_Data\NAV_FindInFiles.json" >
+    <Content Include="..\..\data\NAV002.json" Link="App_Data\NAV002.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\NAV_GoToDefinition.json" Link="App_Data\NAV_GoToDefinition.json" >
+    <Content Include="..\..\data\NAV003.json" Link="App_Data\NAV003.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\NAV_QuickFind.json" Link="App_Data\NAV_QuickFind.json" >
+    <Content Include="..\..\data\NAV004.json" Link="App_Data\NAV004.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\NAV_QuickLaunch.json" Link="App_Data\NAV_QuickLaunch.json" >
+    <Content Include="..\..\data\NAV005.json" Link="App_Data\NAV005.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\SHL_CloseWindow.json" Link="App_Data\SHL_CloseWindow.json" >
+    <Content Include="..\..\data\SHL001.json" Link="App_Data\SHL001.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\SHL_GoToNext.json" Link="App_Data\SHL_GoToNext.json" >
+    <Content Include="..\..\data\SHL002.json" Link="App_Data\SHL002.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="..\..\data\SHL_NavigateBack.json" Link="App_Data\SHL_NavigateBack.json" >
+    <Content Include="..\..\data\SHL003.json" Link="App_Data\SHL003.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
+  <!--
   <Target Name="CopyDataFiles" BeforeTargets="Build">
     <Message Text="Copying data files" />
     <Copy SourceFiles="@(DataFiles)" DestinationFolder="$(TargetDir)\App_Data\%(RecursiveDir)" SkipUnchangedFiles="true" />
   </Target>
+  -->
 
 </Project>

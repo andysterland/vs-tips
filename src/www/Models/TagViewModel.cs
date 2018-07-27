@@ -10,6 +10,7 @@ namespace www.Models
     {
 
         private TipsTableViewModel _tipsViewModel;
+        private JumboNavViewModel _jumboNavViewModel;
         private string _pageTitle;
         private string _viewName = "tag";
         private string _tag;
@@ -18,6 +19,7 @@ namespace www.Models
         {
             _tipsViewModel = new TipsTableViewModel(tips);
             _viewName = $"tag/{tag}";
+            _jumboNavViewModel = new JumboNavViewModel(_viewName);
             TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
             string tagTitle = textInfo.ToTitleCase(tag); 
             _pageTitle = $"{tagTitle} Tips";
@@ -46,6 +48,11 @@ namespace www.Models
         public string GetPageMessage()
         {
             return string.Empty;
+        }
+
+        public JumboNavViewModel GetJumboNavViewModel()
+        {
+            return _jumboNavViewModel;
         }
     }
 }

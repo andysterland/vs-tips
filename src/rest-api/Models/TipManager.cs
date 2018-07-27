@@ -28,7 +28,7 @@ namespace rest_api.Models
             return tips;
         }
 
-        public Tip GetTipByName(string name)
+        public Tip GetTipById(string name)
         {
             return _tips[name];
         }

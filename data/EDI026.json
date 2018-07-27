@@ -1,0 +1,15 @@
+{
+  "id": "EDI026",
+  "name": "Refactorings",
+  "markdown": "Press **Alt+Enter** or **Ctrl+.** to activate a specific refactoring on the selected symbol when available.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

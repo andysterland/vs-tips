@@ -1,0 +1,15 @@
+{
+  "id": "EDI013",
+  "name": "Delete Line",
+  "markdown": "Press **Ctrl+Shift+L** to delete a line. (without copying it to your clipboard!)",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

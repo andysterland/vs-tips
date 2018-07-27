@@ -1,0 +1,15 @@
+{
+  "id": "EDI018",
+  "name": "Expand Selection",
+  "markdown": "Press **Shift+Alt+=**(plus) to Expand Selection.\r\n\r\nPress **Shift+Alt+-**(minus) to Contract Selection.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

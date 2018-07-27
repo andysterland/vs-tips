@@ -8,6 +8,7 @@ namespace www.Models
     public class IndexViewModel : ITipsViewModel
     {
         private TipsTableViewModel _tipsViewModel;
+        private JumboNavViewModel _jumboNavViewModel;
         private string _pageTitle;
         private string _viewName;
 
@@ -16,6 +17,7 @@ namespace www.Models
             _tipsViewModel = new TipsTableViewModel(tips);
             _pageTitle = "Random Tips";
             _viewName = "index";
+            _jumboNavViewModel = new JumboNavViewModel(_viewName);
         }
 
         public string GetPageTitle()
@@ -36,6 +38,11 @@ namespace www.Models
         public string GetPageMessage()
         {
             return string.Empty;
+        }
+
+        public JumboNavViewModel GetJumboNavViewModel()
+        {
+            return _jumboNavViewModel;
         }
     }
 }

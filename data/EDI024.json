@@ -1,0 +1,15 @@
+{
+  "id": "EDI024",
+  "name": "Move Line",
+  "markdown": "Press **Alt+Up/Down** arrow to move the current line or selected lines up or down.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

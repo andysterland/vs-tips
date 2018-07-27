@@ -1,8 +1,0 @@
-{
-  "id": "EDI_DeleteLeft",
-  "markdown": "Press **Ctrl+Backspace** to delete the word to left of the cursor.",
-  "tags": [
-    "editor"
-  ],
-  "scope": "editor"
-}

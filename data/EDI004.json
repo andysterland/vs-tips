@@ -1,0 +1,15 @@
+{
+  "id": "EDI004",
+  "name": "Add Class",
+  "markdown": "Press **Shift+Alt+C** to add new class the current place (folder/project).",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

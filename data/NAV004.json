@@ -1,0 +1,15 @@
+{
+  "id": "NAV004",
+  "name": "Quick Launch",
+  "markdown": "Press **Ctrl+Q** to find settings, menu options, and much more through Quick Launch.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "navigation"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

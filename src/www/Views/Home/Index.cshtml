@@ -1,54 +1,10 @@
 ﻿@model IndexViewModel
 
-<div class="row center-block">
-    <div class="jumbotron text-center">
-        <div class="container">
-            <div class="col-md-2 @(@Model.GetViewName() == "index"  ? "nav-active" : "")">
-                <a href="/">
-                    <img src="~/images/tag-vs-random.png" />
-                    <div>Random Tips</div>
-                </a>
-            </div>
-            <div class="col-md-2  @(@Model.GetViewName() == "tag/editor"  ? "nav-active" : "")">
-                <a href="/tag/editor">
-                    <img src="~/images/tag-vs-edit.png" />
-                    <div>Editor Tips</div>
-                </a>
-            </div>
-            <div class="col-md-2 @(@Model.GetViewName() == "tag/shell"  ? "nav-active" : "")">
-                <a href="/tag/shell">
-                    <img src="~/images/tag-vs-shell.png" />
-                    <div>Shell Tips</div>
-                </a>
-            </div>
-            <div class="col-md-2 @(@Model.GetViewName() == "tag/debug"  ? "nav-active" : "")">
-                <a href="/tag/debugger">
-                    <img src="~/images/tag-vs-debug.png" />
-                    <div>Debugging Tips</div>
-                </a>
-            </div>
-            <div class="col-md-2 @(@Model.GetViewName() == "tag/design"  ? "nav-active" : "")">
-                <a href="/tag/desginer">
-                    <img src="~/images/tag-vs-design.png" />
-                    <div>Designer Tips</div>
-                </a>
-            </div>
-            <div class="col-md-2  @(@Model.GetViewName() == "search"  ? "nav-active" : "")">
-                <a href="/search">
-                    <img src="~/images/tag-vs-search.png" />
-                    <div>Search Tips</div>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
+@{
+    ViewData["Title"] = Model.GetPageTitle();
+}
 
-<div class="row center-block">
-</div>
-
-<div class="row center-block">
-    <h2>@Model.GetPageTitle()</h2>
-</div>
+<partial name="_JumboNav" model="Model.GetJumboNavViewModel()" />
 
 <div class="row center-block">
     @if (Model.GetViewName() == "search")
@@ -60,5 +16,5 @@
     }
     <p>@Model.GetPageMessage()</p>
 
-    @Html.Partial("_TipsTablePartial", Model.GetTipsViewModel())
+    <partial name="_TipsTablePartial" model="Model.GetTipsViewModel()" />
 </div>

@@ -1,8 +1,0 @@
-{
-  "id": "SHL_NavigateBack",
-  "markdown": "Press **Ctrl+-(minus)** to navigate backward to your last caret placement. (You can press it repeatedly to keep going back.)\r\n\r\nPress **Ctrl+=(plus)** to navigate forward.",
-  "tags": [
-    "shell"
-  ],
-  "scope": "global"
-}

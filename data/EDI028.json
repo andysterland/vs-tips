@@ -1,0 +1,15 @@
+{
+  "id": "EDI028",
+  "name": "Transparent Tooltip",
+  "markdown": "Make Intellisense and tooltips semi-transparent for the duration you press and hold the **Ctrl** key.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

@@ -9,6 +9,7 @@ namespace www.Models
     {
 
         private TipsTableViewModel _tipsViewModel;
+        private JumboNavViewModel _jumboNavViewModel;
         private string _pageTitle;
         private string _pageMessage;
         private string _viewName;
@@ -17,6 +18,8 @@ namespace www.Models
         public SearchViewModel()
         {
             _pageTitle = "Search Tips";
+            _viewName = "search";
+            _jumboNavViewModel = new JumboNavViewModel(_viewName);
         }
 
         public SearchViewModel(rest_api.Models.Tip[] tips, string searchTerm)
@@ -67,6 +70,11 @@ namespace www.Models
         public string GetPlaceholderText()
         {
             return (string.IsNullOrWhiteSpace(_searchTerm)) ? "Search" : _searchTerm;
+        }
+
+        public JumboNavViewModel GetJumboNavViewModel()
+        {
+            return _jumboNavViewModel;
         }
     }
 }

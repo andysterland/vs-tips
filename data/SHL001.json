@@ -1,0 +1,15 @@
+{
+  "id": "SHL001",
+  "name": "Close Tool Window",
+  "markdown": "Press **Shift+Esc** to close the current tool window.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "Shell"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

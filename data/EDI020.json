@@ -1,0 +1,15 @@
+{
+  "id": "EDI020",
+  "name": "Format Doc",
+  "markdown": "Press **Ctrl+K, D** to format the current document to code formatting settings.\r\n\r\nAnd press **Ctrl+K, F** to format the current selection.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

@@ -1,0 +1,15 @@
+{
+  "id": "EDI015",
+  "name": "Display Overload",
+  "markdown": "Instead of retyping '(' to show parameter info in method signatures, use **Ctrl+Shift+Space** to display the currently used overload.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

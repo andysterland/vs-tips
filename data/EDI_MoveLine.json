@@ -1,8 +1,0 @@
-{
-  "id": "EDI_MoveLine",
-  "markdown": "Press **Alt+Up/Down** arrow to move the current line or selected lines up or down.",
-  "tags": [
-    "editor"
-  ],
-  "scope": "editor"
-}

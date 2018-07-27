@@ -1,0 +1,15 @@
+{
+  "id": "EDI021",
+  "name": "For Refactoring",
+  "markdown": "Convert a for loop into a foreach loop and vice-versa by pressing **Ctrl+.** when your caret is on the 'for' keyword. \r\n\r\nhttps://docs.microsoft.com/en-us/visualstudio/ide/reference/convert-for-loop-to-foreach",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

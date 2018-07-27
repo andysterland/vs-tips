@@ -1,0 +1,15 @@
+{
+  "id": "NAV005",
+  "name": "Go To Definition",
+  "markdown": "Press **F12** to go to the definition underneath the caret.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "navigation"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

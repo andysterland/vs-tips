@@ -1,0 +1,15 @@
+{
+  "id": "SHL003",
+  "name": "Go To Next or Previous Doc",
+  "markdown": "Press **Alt+F6** to return to the most recent tool window.\r\n\r\nPress **ESC** to return focus back to the editor.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "Shell"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

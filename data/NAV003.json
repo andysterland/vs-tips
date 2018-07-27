@@ -1,0 +1,15 @@
+{
+  "id": "NAV003",
+  "name": "Quick Find",
+  "markdown": "Press **Ctrl+F** to quickly find in the current document.\r\n\r\nPress **Ctrl+H** to quickly replace in the current document.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "navigation"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

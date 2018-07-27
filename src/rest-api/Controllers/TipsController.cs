@@ -23,7 +23,7 @@ namespace rest_api.Controllers
         [HttpGet("api/tips/{id}")]
         public ActionResult<Tip> Get(string id)
         {
-            return Global.Tips.GetTipByName(id);
+            return Global.Tips.GetTipById(id);
         }
 
         // GET api/tips/tag/tag

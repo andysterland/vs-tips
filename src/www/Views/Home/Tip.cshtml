@@ -1,0 +1,88 @@
+﻿@model www.Models.TipViewModel
+
+@{
+    ViewData["Title"] = $"Tip: {Model.Tip.Name}";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <div class="row center-block">
+        <div class="jumbotron text-center">
+            <div class="container">
+                @Html.Raw(Markdig.Markdown.ToHtml(Model.Tip.Markdown))
+            </div>
+            @if (!string.IsNullOrWhiteSpace(Model.Tip.GifUri))
+            {
+                <div class="container">
+                    <img src="@Model.Tip.GifUri" alt="Animation for @Model.Tip.Name in use" />
+                </div>
+            }
+            @if (!string.IsNullOrWhiteSpace(Model.Tip.ImageBase64))
+            {
+                <div class="container">
+                    <img src="@Model.Tip.ImageBase64" alt="Image of @Model.Tip.Name in use" />
+                </div>
+            }
+            @if (Model.Tip.Keys != null && Model.Tip.Keys.Count > 0)
+            {
+
+                <div class="container">
+                    @foreach (string key in Model.Tip.Keys)
+                    {
+                        <span class="kbd">@key</span>
+                    }
+                </div>
+            }
+            <div>
+                <div class="row center-block">
+                    <div class="container">
+                        <a asp-action="Index">Back to home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row center-block">
+            <div class="container">
+                <div class="col-md-6">
+                    <table>
+                        <tr>
+                            <td><strong>VS Min Version:</strong></td>
+                            <td>@Model.Tip.VsMinVer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>VS Max Version:</strong></td>
+                            <td>@Model.Tip.VsMaxVer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Tags:</strong></td>
+                            <td>@Model.GetTagString()</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Scope: </strong> </td>
+                            <td>@Model.Tip.Scope</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <table>
+                        @if (!string.IsNullOrWhiteSpace(Model.Tip.VideoUri))
+                        {
+                            <tr>
+                                <td><strong>Video:</strong></td>
+                                <td><a href="@Model.Tip.VideoUri" target="_blank">@Model.Tip.VideoUri</a></td>
+                            </tr>
+                        }
+                        @if (!string.IsNullOrWhiteSpace(Model.Tip.MoreInfoUri))
+                        {
+                            <tr>
+                                <td><strong>More Info:</strong></td>
+                                <td><a href="@Model.Tip.MoreInfoUri" target="_blank">@Model.Tip.MoreInfoUri</a></td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+

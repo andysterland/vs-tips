@@ -1,8 +1,0 @@
-{
-  "id": "EDI_FormatDoc",
-  "markdown": "Press **Ctrl+K, D** to format the current document to code formatting settings.\r\n\r\nAnd press **Ctrl+K, F** to format the current selection.",
-  "tags": [
-    "editor"
-  ],
-  "scope": "editor"
-}

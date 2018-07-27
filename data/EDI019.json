@@ -1,0 +1,15 @@
+{
+  "id": "EDI019",
+  "name": "For Loop",
+  "markdown": "Type 'for' and press tab twice to generate a for loop code snippet.\r\nType 'forr' and press tab twice to generate a reverse for loop code snippet.\r\n",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

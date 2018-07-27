@@ -1,0 +1,15 @@
+{
+  "id": "EDI017",
+  "name": "editor Config",
+  "markdown": "Use editorConfig to create portable, custom editor settings through simple text based codestyle enforcement. \r\n\r\nhttps://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

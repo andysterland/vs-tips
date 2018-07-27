@@ -1,0 +1,15 @@
+{
+  "id": "EDI022",
+  "name": "Full Screen",
+  "markdown": "Press **Shift+Alt+Enter** to put your current open file in full screen mode. This comes handy when there is lot of code to look at.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

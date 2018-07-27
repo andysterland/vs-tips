@@ -1,0 +1,15 @@
+{
+  "id": "NAV002",
+  "name": "Find In Files",
+  "markdown": "Press **Ctrl+Shift+F** to find any string in the files within a specified scope.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "navigation"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

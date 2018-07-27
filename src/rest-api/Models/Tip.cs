@@ -13,11 +13,13 @@ namespace rest_api.Models
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
 
-    [DebuggerDisplay("{Id,nq}")]
+    [DebuggerDisplay("{Name,nq}")]
     public partial class Tip
     {
         [JsonProperty("id", NullValueHandling = NullValueHandling.Ignore)]
         public string Id { get; set; }
+        [JsonProperty("name", NullValueHandling = NullValueHandling.Ignore)]
+        public string Name { get; set; }
 
         [JsonProperty("markdown", NullValueHandling = NullValueHandling.Ignore)]
         public string Markdown { get; set; }
@@ -45,6 +47,9 @@ namespace rest_api.Models
 
         [JsonProperty("scope", NullValueHandling = NullValueHandling.Ignore)]
         public string Scope { get; set; }
+
+        [JsonProperty("imgBase64", NullValueHandling = NullValueHandling.Ignore)]
+        public string ImageBase64 { get; set; }
     }
 
     public partial class Tip
@@ -56,7 +61,6 @@ namespace rest_api.Models
     {
         public static string ToJson(this Tip self) => JsonConvert.SerializeObject(self, rest_api.Models.Converter.Settings);
     }
-
 
     internal static class Converter
     {

@@ -42,6 +42,15 @@ namespace www.Controllers
             return View(viewModel);
         }
 
+        [HttpGet("tip/{id}")]
+        public async Task<IActionResult> Tip(string id)
+        {
+            rest_api.Models.Tip tip = await TipViewManager.GetTipById(id);
+            TipViewModel viewModel = new TipViewModel(tip);
+
+            return View(viewModel);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

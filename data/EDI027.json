@@ -1,0 +1,15 @@
+{
+  "id": "EDI027",
+  "name": "Select Vertical",
+  "markdown": "Use Alt-mousedrag to select vertical sections of code to easily remove them. eg: Line numbers from copy/pasted code.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

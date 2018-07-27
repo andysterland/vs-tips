@@ -1,0 +1,15 @@
+{
+  "id": "EDI012",
+  "name": "Delete Left Word",
+  "markdown": "Press **Ctrl+Backspace** to delete the word to left of the cursor.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

@@ -1,0 +1,15 @@
+{
+  "id": "EDI010",
+  "name": "Cut Line",
+  "markdown": "Press **Ctrl+L** to cut the line where the cursor is. That way it is on the clipboard where you can get it again.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}

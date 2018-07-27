@@ -1,8 +1,0 @@
-{
-  "id": "NAV_QuickFind",
-  "markdown": "Press **Ctrl+F** to quickly find in the current document.\r\n\r\nPress **Ctrl+H** to quickly replace in the current document.",
-  "tags": [
-    "navigation"
-  ],
-  "scope": "global"
-}

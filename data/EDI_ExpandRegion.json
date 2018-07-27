@@ -1,8 +1,0 @@
-{
-  "id": "EDI_ExpandRegion",
-  "markdown": "Press **Ctrl+M, E** to expand a collapsed region.\r\nPress **Ctrl+M, S** to shrink an expanded region. ",
-  "tags": [
-    "editor"
-  ],
-  "scope": "editor"
-}

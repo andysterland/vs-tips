@@ -1,0 +1,15 @@
+{
+  "id": "EDI006",
+  "name": "Clean Usings",
+  "markdown": "Press **Ctrl+R+G** To clean up and sort using statements.",
+  "VSMinVer": "15.*",
+  "VSMaxVer": "",
+  "tags": [
+    "editor"
+  ],
+  "gifUri": "",
+  "videoUri": "",
+  "keys": [],
+  "scope": "",
+  "imgBase64": ""
+}
